@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HTUX Career Expo </title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Inter:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Career Expo Navbar -->
+    <nav class="navbar navbar-expand-md bg-white shadow-sm career-navbar">
+        <div class="career-navbar-container container-fluid px-4">
+
+            <!-- Logo -->
+            <a class="career-navbar-brand navbar-brand" href="#">
+                <img src="Resourses/logo.png" alt="HTU Logo" height="40">
+            </a>
+
+            <!-- Search Form -->
+            <form class="career-search-form d-none d-lg-flex ms-3 me-auto" style="width: 300px;">
+                <input class="form-control me-2" type="search" placeholder="Search applicants or jobs..." />
+                <button class="btn btn-outline-secondary" type="submit">
+                    <i class="bi bi-search"></i>
+                </button>
+            </form>
+
+            <!-- Toggler for mobile -->
+            <button class="career-navbar-toggler navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#careerNavbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible content -->
+            <div class="career-navbar-collapse collapse navbar-collapse" id="careerNavbarNav">
+
+                <!-- Main navigation links -->
+                <ul class="career-nav-links navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#">Pathways</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Career Expo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                </ul>
+
+                <!-- Action buttons & user profile -->
+                <div class="career-navbar-actions d-flex align-items-center gap-3">
+
+                    <!-- Saved Jobs -->
+                    <button
+                        class="btn btn-danger career-saved-jobs-btn d-flex align-items-center justify-content-center rounded-circle"
+                        style="width: 40px; height: 40px; padding: 0;">
+                        <img src="Resourses/Shopping bag.png" alt="Saved Jobs" width="16" height="16">
+                    </button>
+
+                    <!-- Add Job -->
+                    <button class="btn btn-success career-add-job-btn px-3 d-flex align-items-center gap-2">
+                        <img src="Resourses/add job.png" alt="Add Job" width="16" height="16">
+                        Add Job
+                    </button>
+
+                    <!-- Notifications -->
+                    <button class="btn btn-link career-notifications-btn text-dark position-relative">
+                        <i class="bi bi-bell fs-5"></i>
+                    </button>
+
+                    <!-- User Profile -->
+                    <div class="career-user-profile d-flex align-items-center gap-2">
+                        <div class="career-user-circle rounded-circle bg-danger d-flex align-items-center justify-content-center"
+                            style="width: 36px; height: 36px;">
+                            <i class="bi bi-person-fill text-white fs-5"></i>
+                        </div>
+                        <span class="fw-medium">Jane Doe</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+<!-- Hero Section -->
+<section class="hero-section py-5">
+  <div class="container px-4 px-md-5">
+    <div class="row align-items-center">
+      
+      <!-- Left: Image -->
+      <div class="col-12 col-md-6 text-center mb-4 mb-md-0">
+        <img src="Resourses/hero.png" alt="Partners" class="img-fluid hero-img">
+      </div>
+
+      <!-- Right: Text -->
+      <div class="col-12 col-md-6 text-center text-md-start">
+        <h1 class="hero-title">Partner With Us at the Career Expo 2025</h1>
+        <p class="hero-subtext">Meet top talent and hire remotely — from anywhere.</p>
+        <a href="#" class="btn btn-danger hero-btn">Become a Hiring Partner →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    <!-- Why Partner With Us Section -->
+    <section class="py-5 text-center">
+        <div class="container">
+            <h2 class="section-heading mb-5">Why Partner With Us?</h2>
+            <div class="row gx-3 gy-4 justify-content-center">
+
+                <!-- Card 1 -->
+                <div class="col-6 col-md-3">
+                    <div class="why-card-sm">
+                        <div class="why-icon-sm">
+                            <img src="Resourses/users.png" width="24" height="24" alt="">
+                        </div>
+                        <h5 class="why-title-sm mt-4">Access National Talent Pool</h5>
+                        <p class="why-desc-sm">Connect with qualified candidates from across the country.</p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-6 col-md-3">
+                    <div class="why-card-sm">
+                        <div class="why-icon-sm">
+                            <img src="Resourses/calendar-check.png" width="24" height="24" alt="">
+                        </div>
+                        <h5 class="why-title-sm mt-4">Interview & Connect in Real Time</h5>
+                        <p class="why-desc-sm">Engage directly with talent through integrated video and chat.</p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-6 col-md-3">
+                    <div class="why-card-sm">
+                        <div class="why-icon-sm">
+                            <img src="Resourses/star.png" width="24" height="24" alt="">
+                        </div>
+                        <h5 class="why-title-sm mt-4">Strengthen Employer Brand</h5>
+                        <p class="why-desc-sm">Showcase your company culture and opportunities to a targeted audience.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-6 col-md-3">
+                    <div class="why-card-sm">
+                        <div class="why-icon-sm">
+                            <img src="Resourses/chart-no-axes-column-increasing.png" width="24" height="24" alt="">
+                        </div>
+                        <h5 class="why-title-sm mt-4">Receive Candidate Engagement Insights</h5>
+                        <p class="why-desc-sm">Get valuable data on candidate interaction and interest levels.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section class="py-5 bg-white text-center">
+        <div class="container">
+            <div class="about-card p-5 mx-auto">
+                <h2 class="fw-bold mb-4">About the Career Expo</h2>
+                <p class="mx-auto mb-5 text-muted" style="max-width: 700px;">
+                    The Career Expo 2025 is a premier online event connecting leading companies with a diverse pool of
+                    job seekers.
+                    Our intuitive platform facilitates real-time interactions, making remote hiring efficient and
+                    effective.
+                    Candidates attend from various locations, eager to explore opportunities and engage directly with
+                    recruiters.
+                </p>
+                <div class="d-flex justify-content-center gap-5 flex-wrap">
+                    <div>
+                        <h3 class="text-danger fw-bold display-6 mb-0">1200+</h3>
+                        <p class="text-muted">Attendees</p>
+                    </div>
+                    <div>
+                        <h3 class="text-danger fw-bold display-6 mb-0">40+</h3>
+                        <p class="text-muted">Companies</p>
+                    </div>
+                    <div>
+                        <h3 class="text-danger fw-bold display-6 mb-0">85%</h3>
+                        <p class="text-muted">Hiring Rate</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="py-5 text-center bg-white">
+        <div class="container">
+            <h2 class="fw-bold mb-5">How It Works</h2>
+            <div class="row justify-content-center g-5">
+                <div class="col-md-4">
+                    <img src="Resourses/Register.png" alt="Register" class="mb-3 how-img">
+                    <h5 class="fw-semibold">Register as a Partner</h5>
+                    <p class="text-muted">Sign up quickly and secure your virtual booth space for the event.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="Resourses/Access.png" alt="Platform" class="mb-3 how-img">
+                    <h5 class="fw-semibold">Access the Virtual Platform</h5>
+                    <p class="text-muted">Set up your company profile, post openings, and customize your virtual
+                        presence.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="Resourses/Engage.png" alt="Engage" class="mb-3 how-img">
+                    <h5 class="fw-semibold">Engage, Chat, and Hire Online</h5>
+                    <p class="text-muted">Meet candidates via chat and video, conduct interviews, and extend offers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ready to Connect Section -->
+    <section class="py-5 text-center text-white connect-section position-relative">
+        <div class="container position-relative z-1">
+            <h2 class="fw-bold mb-3">Ready to Connect?</h2>
+            <p class="mb-4">Don't miss out on the chance to meet potential employees.</p>
+            <a href="#" class="btn btn-light btn-lg px-4 fw-semibold">Register Today!</a>
+        </div>
+
+        <!-- Left Decorative Squares -->
+        <img src="Resourses/decore-left.png" alt="Decor" class="decor-squares decor-left">
+
+        <!-- Right Decorative Squares -->
+        <img src="Resourses/decore-right.png" alt="Decor" class="decor-squares decor-right">
+    </section>
+
+    <!-- Partneres  -->
+    <section class="py-5 text-center">
+        <div class="partner-container">
+            <h2 class="fw-bold mb-5">Our Partners</h2>
+            <div class="row g-4 justify-content-center">
+                <!-- Partner 1 -->
+                <div class="col-md-3">
+                    <div class="border rounded p-3 shadow-sm h-100">
+                        <img src="Resourses/Arab Bank.png" alt="Arab Bank" class="img-fluid mb-3" style="height: 60px;">
+                        <h6 class="fw-semibold">TechCorp Solutions</h6>
+                        <a href="#" class="btn btn-danger btn-sm mt-2">View Company Profile</a>
+                    </div>
+                </div>
+
+                <!-- Partner 2 -->
+                <div class="col-md-3">
+                    <div class="border rounded p-3 shadow-sm h-100">
+                        <img src="Resourses/EY company.png" alt="EY" class="img-fluid mb-3" style="height: 60px;">
+                        <h6 class="fw-semibold">TechCorp Solutions</h6>
+                        <a href="#" class="btn btn-danger btn-sm mt-2">View Company Profile</a>
+                    </div>
+                </div>
+
+                <!-- Partner 3 -->
+                <div class="col-md-3">
+                    <div class="border rounded p-3 shadow-sm h-100">
+                        <img src="Resourses/Techcrop.png" alt="TechCorp" class="img-fluid mb-3" style="height: 60px;">
+                        <h6 class="fw-semibold">TechCorp Solutions</h6>
+                        <a href="#" class="btn btn-danger btn-sm mt-2">View Company Profile</a>
+                    </div>
+                </div>
+
+                <!-- Partner 4 -->
+                <div class="col-md-3">
+                    <div class="border rounded p-3 shadow-sm h-100">
+                        <img src="Resourses/PWC.png" alt="PWC" class="img-fluid mb-3" style="height: 60px;">
+                        <h6 class="fw-semibold">TechCorp Solutions</h6>
+                        <a href="#" class="btn btn-danger btn-sm mt-2">View Company Profile</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pagination dots (optional) -->
+            <div class="my-4">
+                <span class="text-muted">● ● ● ● ●</span>
+            </div>
+
+            <!-- View All Button -->
+            <a href="#" class="btn btn-danger">View All</a>
+        </div>
+    </section>
+
+
+    <!-- Faq section -->
+    <section class="py-5 bg-white">
+        <div class="partner-container">
+            <h2 class="fw-bold text-center mb-5">Frequently Asked Questions</h2>
+
+            <div class="accordion" id="faqAccordion">
+                <!-- FAQ 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq1-heading">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq1" aria-expanded="false">
+                            What is the cost to become a hiring partner?
+                        </button>
+                    </h2>
+                    <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Pricing details are available upon request. Please contact us for a customized package.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq2-heading">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq2" aria-expanded="false">
+                            What kind of technical setup is required?
+                        </button>
+                    </h2>
+                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            A stable internet connection, webcam, and microphone are recommended for participation.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq3-heading">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq3" aria-expanded="false">
+                            Can we conduct presentations or webinars?
+                        </button>
+                    </h2>
+                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, partners can host virtual sessions to showcase their organization or roles.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq4-heading">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq4" aria-expanded="false">
+                            How are candidates screened?
+                        </button>
+                    </h2>
+                    <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Candidates undergo a pre-screening process based on resume, skillset, and event relevance.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Logo + Links -->
+                <div class="col-12 col-md-3">
+                    <img src="Resourses/logo.png" alt="HTU Logo" class="mb-3" style="height: 40px;">
+                    <ul class="list-unstyled small">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Career Expo</a></li>
+                        <li><a href="#">Pathways</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">Cart</a></li>
+                    </ul>
+                </div>
+
+                <!-- Stay Updated -->
+                <div class="col-12 col-md-3">
+                    <h6 class="footer-heading">Stay Updated</h6>
+                    <ul class="list-unstyled small">
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Legal -->
+                <div class="col-12 col-md-3">
+                    <h6 class="footer-heading">Legal</h6>
+                    <ul class="list-unstyled small">
+                        <li><a href="#">Terms of Service.</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Trademark Policy</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                    </ul>
+                </div>
+
+                <!-- Social -->
+                <div class="col-12 col-md-3">
+                    <h6 class="footer-heading">Social Media.</h6>
+                    <div class="footer-social-icons mt-3">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="row mt-4">
+                <div class="col text-center text-md-start small">
+                    <p class="mb-0">Copyright © 2025 Al Hussein Technical University. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
